@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 17px;
+  color: wheat;
+  line-height: 1.6;
+}
+
+#showcase {
+  background-image: url(img/hero.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+  
+}
+#showcase h1 {
+  font-size: 50px;
+  
+}
+#showcase p {
+  text-shadow: 1px;
+  font-size: 20px;
+  line-height: 1.2;
+  
+}
+
+#showcase a {
+  font-size: 18px;
+  text-decoration: none;
+  color: wheat;
+  border: wheat 1px solid;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+
+
+}
