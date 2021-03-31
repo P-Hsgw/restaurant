@@ -48,3 +48,34 @@ body {
   background-color: wheat;
   color: black;
 }
+
+#section_a {
+  padding: 20px;
+  background: wheat;
+  color: black;
+  text-align: center;
+}
+
+#section_b {
+  padding: 20px;
+  text-align: center;
+  background-color: black;
+}
+
+#section_c {
+  display: flex;
+}
+
+#section_c div {
+  padding: 20px;
+
+}
+
+#section_c .box-1, #section_c .box-3 {
+  background: wheat;
+  color: black;
+}
+
+#section_c .box-2 {
+  color: black;
+}
