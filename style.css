@@ -6,7 +6,7 @@
 body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 17px;
-  color: wheat;
+  color: #EEE1B3;
   line-height: 1.6;
 }
 
@@ -37,29 +37,29 @@ body {
 #showcase a {
   font-size: 18px;
   text-decoration: none;
-  color: wheat;
-  border: wheat 1px solid;
+  color: #EEE1B3;
+  border: #EEE1B3 1px solid;
   padding: 10px 20px;
   border-radius: 10px;
   margin-top: 20px;
 }
 
 #showcase .button:hover {
-  background-color: wheat;
-  color: black;
+  background-color: #EEE1B3;
+  color: #2F394D;
 }
 
 #section_a {
   padding: 20px;
-  background: wheat;
-  color: black;
+  background: #EEE1B3;
+  color: #2F394D;
   text-align: center;
 }
 
 #section_b {
   padding: 20px;
   text-align: center;
-  background-color: black;
+  background-color: #2F394D;
 }
 
 #section_c {
@@ -72,10 +72,11 @@ body {
 }
 
 #section_c .box-1, #section_c .box-3 {
-  background: wheat;
-  color: black;
+  background: #EEE1B3;
+  color: #2F394D;
 }
 
 #section_c .box-2 {
-  color: black;
+  color:#EEE1B3;
+  background: #2F394D;
 }
