@@ -1,4 +1,3 @@
-import { createHero, createSection } from './home';
+import loadHome from './home';
 
-createHero();
-createSection();
+loadHome()

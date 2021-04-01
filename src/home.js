@@ -19,7 +19,7 @@ function createHero() {
     showcase.appendChild(button);
   }
   createHeroContent();
-  content.appendChild(showcase);
+  return showcase;
 }
 
 function createSection() {
@@ -51,4 +51,9 @@ function createSection() {
   sectionC.appendChild(boxThree);
 }
 
-export { createHero, createSection };
+function loadHome() {
+  content.appendChild(createHero());
+  createSection();
+}
+
+export default loadHome;
