@@ -28,7 +28,7 @@ function createHero () {
 }
 
 function createSection () {
-  
+
   const sectionA = document.createElement("section")
   const paragraphA = document.createElement("p")
   sectionA.setAttribute("id", "section_a")
@@ -36,17 +36,32 @@ function createSection () {
   sectionA.appendChild(paragraphA)
 
   const sectionC = document.createElement("section")
-  const paragraphC = document.createElement("p")
   sectionC.setAttribute("id", "section_c")
-  paragraphC.innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque voluptatem eum fugiat iusto repellendus! Distinctio porro tempora blanditiis ut suscipit cupiditate consectetur quam deserunt molestias corrupti odio debitis voluptas enim minima, officiis possimus. Excepturi quia aliquam enim, id tempora iste, laudantium quidem magni perferendis nihil accusamus molestiae voluptatem fugiat esse quod libero? Temporibus sed possimus ipsam eligendi laborum repellendus, ullam rerum alias ad, sit blanditiis maiores repudiandae quidem repellat facere, ut laudantium? Illo sed ipsa obcaecati id veniam repudiandae facilis voluptate nulla. Facilis quos id impedit vero iure cum repellendus quam excepturi! Tempore perspiciatis doloribus, iste cum incidunt sequi delectus."
-  sectionC.appendChild(paragraphC)
+    
+  function createBox(id) {
+    const box = document.createElement("div");
+    box.classList.add(`box-${id}`);
+    box.innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa repellendus facere, et quam nulla aut provident cumque perspiciatis quod quaerat?";
+    content.appendChild(box)
+    return box;
+  
+  }
 
   content.appendChild(sectionA)
   content.appendChild(sectionC)
+  
+  const boxOne = createBox("1")
+  const boxTwo = createBox("2")
+  const boxThree = createBox("3")
+  sectionC.appendChild(boxOne)
+  sectionC.appendChild(boxTwo)
+  sectionC.appendChild(boxThree)
+
+
 }
 
 
 export {
   createHero,
-  createSection
+  createSection,
 }
