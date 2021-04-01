@@ -79,4 +79,6 @@ body {
 #section_c .box-2 {
   color:#EEE1B3;
   background: #2F394D;
+  border-color: #EEE1B3;
+  border-style: solid;
 }
