@@ -11,7 +11,7 @@ function createHero () {
     const button = document.createElement("a");
 
     welcome.innerHTML = "Welcome to The Restaurant";
-    description.innerHTML = "Our resteraunt serves the best food and gives you the best vibes"
+    description.innerHTML = "Our resteraunt serves the best, luxury food"
 
     button.href = "#"
     button.classList.add("button")
@@ -37,11 +37,10 @@ function createSection () {
 
   const sectionC = document.createElement("section")
   sectionC.setAttribute("id", "section_c")
-    
+
   function createBox(id) {
     const box = document.createElement("div");
     box.classList.add(`box-${id}`);
-    box.innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa repellendus facere, et quam nulla aut provident cumque perspiciatis quod quaerat?";
     content.appendChild(box)
     return box;
   
@@ -56,7 +55,6 @@ function createSection () {
   sectionC.appendChild(boxOne)
   sectionC.appendChild(boxTwo)
   sectionC.appendChild(boxThree)
-
 
 }
 
