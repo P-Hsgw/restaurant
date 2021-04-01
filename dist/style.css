@@ -116,3 +116,23 @@ body {
   border-color: #EEE1B3;
 
 }
+
+@media only screen and (max-width: 600px) {
+  #section_c {
+    flex-direction: column;
+  }
+
+  #section_c .box-1, #section_c .box-2, #section_c .box-3 {
+    width: auto;
+  }
+
+  #section_c .box-2 {
+    border-top: #EEE1B3;
+    border-bottom: #EEE1B3;
+    border-top:    1px solid  #EEE1B3;
+    border-right:  none;
+    border-bottom: 1px solid #EEE1B3;
+    border-left:   none;
+
+  }
+}
