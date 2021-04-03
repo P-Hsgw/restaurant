@@ -21,6 +21,7 @@ body {
   align-items: center;
   text-align: center;
   padding: 0 20px;
+  overflow: hidden;
   
 }
 #showcase h1 {
@@ -119,13 +120,24 @@ body {
 
 .menu {
   display: flex;
-  
-  
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  max-height: 90vh;
+  overflow-y: scroll;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+
 }
+
+.menu::-webkit-scrollbar {
+  display: none;
+}
+
 
 .menu_box {
   padding: 20px;
-  width: 100%;
+  width: 200px;
   text-align: center;
   border: solid;
   background: #2F394D;
