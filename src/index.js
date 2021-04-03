@@ -1,3 +1,3 @@
-import loadHome from './home';
+import initializeSite from "./loader.js"
 
-loadHome()
+initializeSite()
