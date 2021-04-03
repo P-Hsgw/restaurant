@@ -22,7 +22,7 @@ function initializeSite() {
     showcase.removeChild(p);
     showcase.removeChild(a);
 
-    content.appendChild(menu())
+    showcase.appendChild(menu())
     
   })
 }

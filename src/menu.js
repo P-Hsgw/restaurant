@@ -32,10 +32,14 @@ function createMenu() {
     return newContent;
   }
 
+
+
   createDiv(1, createTitle("Pizza"), createContent("Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi necessitatibus voluptatum aut. Eaque, praesentium labore?"));
   createDiv(2, createTitle("Pasta"), createContent("Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi necessitatibus voluptatum aut. Eaque, praesentium labore?"));
   createDiv(3, createTitle("Lasagne"), createContent("Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi necessitatibus voluptatum aut. Eaque, praesentium labore?"));
   createDiv(4, createTitle("Pierogi"), createContent("Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi necessitatibus voluptatum aut. Eaque, praesentium labore?"));
+  createDiv(5, createTitle("Zapiekanki"), createContent("Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi necessitatibus voluptatum aut. Eaque, praesentium labore?"));
+  createDiv(5, createTitle("Zapiekanki"), createContent("Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi necessitatibus voluptatum aut. Eaque, praesentium labore?"));
   createDiv(5, createTitle("Zapiekanki"), createContent("Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi necessitatibus voluptatum aut. Eaque, praesentium labore?"));
 
 
