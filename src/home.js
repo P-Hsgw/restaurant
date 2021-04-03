@@ -13,6 +13,7 @@ function createHero() {
     description.innerHTML = "Our resteraunt serves the best, luxurious food";
     button.href = "#";
     button.classList.add("button");
+    button.setAttribute("id", "menu_btn");
     button.innerHTML = "Menu";
     showcase.appendChild(welcome);
     showcase.appendChild(description);

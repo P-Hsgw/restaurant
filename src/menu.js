@@ -37,12 +37,6 @@ function createMenu() {
   createDiv(3, createTitle("Lasagne"), createContent("Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi necessitatibus voluptatum aut. Eaque, praesentium labore?"));
   createDiv(4, createTitle("Pierogi"), createContent("Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi necessitatibus voluptatum aut. Eaque, praesentium labore?"));
   createDiv(5, createTitle("Zapiekanki"), createContent("Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi necessitatibus voluptatum aut. Eaque, praesentium labore?"));
-  createDiv(6, createTitle("Zapiekanki"), createContent("Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi necessitatibus voluptatum aut. Eaque, praesentium labore?"));
-  createDiv(7, createTitle("Zapiekanki"), createContent("Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi necessitatibus voluptatum aut. Eaque, praesentium labore?"));
-  createDiv(8, createTitle("Zapiekanki"), createContent("Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi necessitatibus voluptatum aut. Eaque, praesentium labore?"));
-  createDiv(9, createTitle("Zapiekanki"), createContent("Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi necessitatibus voluptatum aut. Eaque, praesentium labore?"));
-  createDiv(10, createTitle("Zapiekanki"), createContent("Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi necessitatibus voluptatum aut. Eaque, praesentium labore?"));
-
 
 
   return menu;

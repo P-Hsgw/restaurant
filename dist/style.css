@@ -124,12 +124,16 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   
+  
 }
 
 .menu_box {
   padding: 20px;
   width: 100%;
   text-align: center;
+  border: solid;
+  background: #2F394D;
+  margin: 10px;
 
 }
 
