@@ -11,7 +11,6 @@ function createHero() {
     const button = document.createElement("a");
     welcome.innerHTML = "Welcome to The Restaurant";
     description.innerHTML = "Our resteraunt serves the best, luxurious food";
-    button.href = "#";
     button.classList.add("button");
     button.setAttribute("id", "menu_btn");
     button.innerHTML = "Menu";
