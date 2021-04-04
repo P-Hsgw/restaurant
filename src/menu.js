@@ -1,6 +1,10 @@
 function createMenu() {
   const menu = document.createElement("div");
   menu.classList.add("menu")
+  const showcase = document.getElementById("showcase")
+
+
+ 
 
   function createDiv(id, title, paragraph) {
     const newDiv = document.createElement("div");
@@ -32,6 +36,13 @@ function createMenu() {
     return newContent;
   }
 
+  function createButton() {
+    const button = document.createElement("a");
+    button.classList.add("button");
+    button.setAttribute("id", "return_btn");
+    button.innerHTML = "Close menu";
+    showcase.appendChild(button);
+  }
 
 
   createDiv(1, createTitle("Pizza"), createContent("Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi necessitatibus voluptatum aut. Eaque, praesentium labore?"));
@@ -41,6 +52,22 @@ function createMenu() {
   createDiv(5, createTitle("Zapiekanki"), createContent("Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi necessitatibus voluptatum aut. Eaque, praesentium labore?"));
   createDiv(5, createTitle("Zapiekanki"), createContent("Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi necessitatibus voluptatum aut. Eaque, praesentium labore?"));
   createDiv(5, createTitle("Zapiekanki"), createContent("Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi necessitatibus voluptatum aut. Eaque, praesentium labore?"));
+
+  createButton();
+
+  const returnBtn = document.getElementById("return_btn");
+  returnBtn.addEventListener("click", () => {
+    const h1 = document.querySelector("h1")
+    const p = document.querySelector("p")
+    const a = document.querySelector("a")
+
+    h1.style.display = "block"
+    p.style.display = "block"
+    a.style.display = "block"
+    returnBtn.remove()
+    menu.remove()
+    
+  })
 
 
   return menu;

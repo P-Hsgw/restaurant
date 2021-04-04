@@ -11,20 +11,21 @@ function initializeSite() {
 
   loadHome()
 
-  const button = document.getElementById("menu_btn")
+  const menu_button = document.getElementById("menu_btn")
 
-  button.addEventListener("click", ()=> {
+  menu_button.addEventListener("click", ()=> {
     const showcase = document.getElementById("showcase")
     const h1 = document.querySelector("h1")
     const p = document.querySelector("p")
     const a = document.querySelector("a")
-    showcase.removeChild(h1);
-    showcase.removeChild(p);
-    showcase.removeChild(a);
 
+    h1.style.display = "none"
+    p.style.display = "none"
+    a.style.display = "none"
     showcase.appendChild(menu())
-    
   })
+
+
 }
 
 
